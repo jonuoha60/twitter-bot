@@ -1,6 +1,6 @@
 # Auto Twitter Bio Updater with Latest GitHub Repo
 
-Automatically update your Twitter bio with your newest GitHub repository!  
+Automatically update your Twitter bio with your newest GitHub repository
 Keep your Twitter profile fresh and showcase your latest work without any manual effort.
 
 ---
@@ -9,8 +9,6 @@ Keep your Twitter profile fresh and showcase your latest work without any manual
 
 - Fetches your latest GitHub repository using the GitHub API  
 - Updates your Twitter bio with the repository name and URL  
-- Runs on a Node.js server with Puppeteer and Twitter API integration  
-- Easy to configure with environment variables  
 - Perfect for developers who want to keep their social profiles in sync effortlessly
 
 ---
@@ -27,9 +25,8 @@ Keep your Twitter profile fresh and showcase your latest work without any manual
 
 ### 1. Clone this repository:
 
-git clone https://github.com/yourusername/auto-twitter-bio-updater.git
-cd auto-twitter-bio-updater
-Install dependencies:
+git clone https://github.com/jonuoha60/twitter-bot.git
+cd twitter-bot
 
 
 npm install
@@ -39,7 +36,6 @@ TWITTER_CONSUMER_KEY=your_consumer_key
 TWITTER_CONSUMER_SECRET=your_consumer_secret
 TWITTER_ACCESS_TOKEN_KEY=your_access_token
 TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
-GITHUB_USERNAME=your_github_username
 Update the code or environment variables to point to your GitHub username.
 
 ### 2. Usage

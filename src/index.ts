@@ -36,4 +36,4 @@ async function main() {
   console.log("✅ Bio updated successfully with:", githubData);
 }
 
-main().catch((err) => console.error("❌ Error:", err.message));
+main().catch((err) => console.error("Error:", err.message));
